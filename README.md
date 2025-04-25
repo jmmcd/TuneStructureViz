@@ -8,7 +8,7 @@ I've added context and links in this README, and necessary data in `data/`.
 
 # Introduction
 
-The background to this project is a paper by Seán Doherty (DCU), "Melodic structures in the double jigs of O’Neill’s *The Dance Music of Ireland: 1001 Gems (1907)*. Journal of the Society for Musicology in Ireland, pages 19–45, 2022. Doherty manually annotated bar-level structures in the 1001 Gems. An 8-bar tune's structure can be expressed as a word such as `a b a c a b a c1`. 
+The background to this project is a paper by Seán Doherty (DCU), "Melodic structures in the double jigs of O’Neill’s *The Dance Music of Ireland: 1001 Gems (1907)*. Journal of the Society for Musicology in Ireland, pages 19–45, 2022. Doherty manually annotated bar-level structures in the 1001 Gems, giving the file `data/Detail1.csv` which is copyright Seán Doherty 2022. An 8-bar tune's structure can be expressed as a word such as `a b a c a b a c1`. 
 
 # Prefix Trees
 
@@ -22,17 +22,17 @@ The application was implemented and hosted using Firebase, Node, Typescript, Rea
 
 # Demo
 
-The application looks like this:
+The application looks like this, after clicking "Prepare Graph":
 
 ![img](img/prefix-tree-gui.png)
 
 As shown, the user should:
 
-1. Visit [this url](https://fyproject-98a82.firebaseapp.com/)
+1. Visit [this url](https://fyproject-98a82.firebaseapp.com/) and click "Prepare Graph".
 2. Type "A" in the first box. "A" refers to the A part of each tune. 
 3. Type "ALL" in the second box. "ALL" means we take all types of tunes, ie reels, jigs, etc.
-4. Browse and select the file `data/Detail1.csv`.
-5. Browse and select the file `data/oneill.csv`.
+4. Browse and select the file `data/Detail1.csv` which is copyright Seán Doherty 2022.
+5. Browse and select the file `data/oneill.csv` which is sourced from https://www.irishtune.info/public/oneill.htm and is copyright Francis O'Neill and David Moulton.
 6. Then click "Create Graph" and wait a moment. 
 
 When the graph appears, interact by clicking and by searching.
